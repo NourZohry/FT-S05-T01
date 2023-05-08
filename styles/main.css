@@ -1,0 +1,335 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Navbar */
+.navbar-container {
+  margin-top: 56px;
+}
+
+.color-white-nav {
+  color: white;
+  margin-right: 32px;
+}
+
+.nav-link {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.start-container {
+  padding-bottom: 158px;
+  position: relative;
+}
+
+.login-button {
+  color: #0A2640;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  width: 128px;
+  height: 40px;
+  background-color: white;
+  border-radius: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Start */
+.start-about {
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 57px;
+  margin-bottom: 12px;
+}
+
+.start-title {
+  color: white;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 84px;
+  margin-left: 227px;
+  margin-right: 227px;
+  margin-bottom: 18px;
+}
+
+.start-subtitle {
+  color: #f1f1f1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+/* Images */
+.images-container {
+  position: relative;
+  margin-top: -96px;
+}
+
+/* Our Story */
+.our-story-start {
+  color: #777;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.our-story-title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.our-story-description {
+  color: #777;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.our-story-wrapper {
+  margin: 120px 300px 0 300px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+/* Our Numbers */
+.ournumbers-container {
+  margin-top: 96px;
+}
+
+.ournumbers-title {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 94px;
+}
+
+.ournumbers-subtitle {
+  color: #fff;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  margin: 12px 239px 82px 239px;
+}
+
+.ournumbers-numbers-wrapper {
+  margin-left: 160px;
+  margin-right: 160px;
+  padding-bottom: 96px;
+}
+
+.ournumbers-number {
+  color: #4FE9A4;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+
+.ournumbers-number-title {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+/* Leaders for Our Team */
+.leader-name {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.leader-role {
+  color: #777;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* Our Values */
+.ourvalues-container {
+  margin-top: 131px;
+}
+
+.ourvalues-wrapper {
+  padding-top: 111px;
+  padding-bottom: 131px;
+  margin-left: 300px;
+}
+
+.ourvalues-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.ourvalues-subtitle {
+  color: #fff;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+}
+
+.ourvalues-description {
+  color: #f1f1f1;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-right: 99px;
+  margin-bottom: 72px;
+}
+
+.ourvalues-value-wrapper {
+  margin-right: 99px;
+}
+
+.ourvalues-value {
+  color: #fff;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+}
+
+.ourvalues-value-description {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* Subscription */
+.subscription-container {
+  margin-top: 113px;
+  border-radius: 12px;
+  margin-bottom: 84px;
+  padding-bottom: 74px;
+}
+
+.subscription-title {
+  color: #fff;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  padding-top: 72px;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.subscription-email {
+  color: black;
+  padding-left: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 370px;
+  height: 56px;
+  border-radius: 240px;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+.subscription-button {
+  color: #0A2640;
+  background-color: #65E4A3;
+  border: 2px solid #65E4A3;
+  width: 210px;
+  height: 60px;
+  border-radius: 56px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+/* Footer */
+.footer-logo {
+  width: 156px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.footer-text {
+  color: #777;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 64px;
+  width: 300px;
+}
+
+.footer-title {
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+.footer-link-text {
+  color: #777;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.careers-hiring {
+  font-family: "Open Sans";
+  color: #0A2640;
+  background-color: #65E4A3;
+  width: 72px;
+  height: 30px;
+  border-radius: 120px;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 28px;
+  padding: 1px 14px;
+}
+
+/* Generic */
+.margin-200x {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.margin-100x {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.margin-121r {
+  margin-right: 121px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.margin-52t {
+  margin-top: 52px;
+}
+
+.background-color-navy {
+  background-color: #0A2640;
+}
+
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}/*# sourceMappingURL=main.css.map */
