@@ -223,54 +223,55 @@ body {
 }
 
 /* Subscription */
+
+/* Subscription */
 .subscription-container {
     margin-top: 113px;
     border-radius: 12px;
     margin-bottom: 84px;
     padding-bottom: 74px;
-}
 
-.subscription-title {
-    color: #fff;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
+    .subscription-title {
+        color: #fff;
+        font-size: 48px;
+        line-height: 72px;
+    
+        padding-top: 72px;
+        margin-bottom: 50px;
+        // margin-left: 242px;
+        // margin-right: 242px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 
-    padding-top: 72px;
-    margin-bottom: 50px;
-    // margin-left: 242px;
-    // margin-right: 242px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.subscription-email { 
-    color:  black;
-    padding-left: 32px;  
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-
-    width: 370px;
-    height: 56px;
-    border-radius: 240px;
-}
-
-::-webkit-input-placeholder {
-    color: black;
-}
-
-.subscription-button {
-    color: #0A2640;
-    background-color: #65E4A3;
-    border: 2px solid #65E4A3;
-    width: 210px;
-    height: 60px;
-    border-radius: 56px;
-
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
+    form {
+        .subscription-email { 
+            color:  black;
+            padding-left: 32px;  
+            font-size: 20px;
+            line-height: 32px;
+            width: 370px;
+            height: 56px;
+            border-radius: 240px;
+        }
+        
+        ::-webkit-input-placeholder {
+            color: black;
+        }
+        
+        .subscription-button {
+            color: $navyBlue;
+            background-color: #65E4A3;
+            border: 2px solid #65E4A3;
+            width: 210px;
+            height: 60px;
+            border-radius: 56px;
+        
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+    }
 }
 
 /* Footer */
@@ -417,6 +418,7 @@ hr {
 }
 
 /* Latest News */
+
 
 .thoughts-title-small {
     font-size: 20px;
