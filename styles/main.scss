@@ -1,4 +1,6 @@
-$navyBlue: $navyBlue;
+$navyBlue: #0A2640;
+$offWhite: #f1f1f1;
+$grey: #777777;
 
 @mixin reset-list {
     margin: 0;
@@ -47,9 +49,9 @@ body {
 
 /* Start */
 .start-about {
-    color: #f1f1f1;
+    color: $offWhite;
     font-size: 20px;
-    font-weight: 400;
+    
     line-height: 32px;
 
     margin-top: 57px;
@@ -59,7 +61,7 @@ body {
 .start-title {
     color: white;
     font-size: 64px;
-    font-weight: 400;
+    
     line-height: 84px;
 
     margin-left: 227px;
@@ -68,9 +70,8 @@ body {
 }
 
 .start-subtitle {
-    color: #f1f1f1;
+    color: $offWhite;
     font-size: 20px;
-    font-weight: 400;
     line-height: 32px;
 
     margin-left: 275px;
@@ -83,33 +84,28 @@ body {
     margin-top: -96px;
 }
 
-/* Our Story */
+/* Our Story / Our Team */
 
-.our-story-start {
-    color: #777;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.our-story-title {
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;    
-}
-
-.our-story-description {
-    color: #777;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.our-story-wrapper {
+.our-story-wrapper, .our-team-wrapper {
     margin: 120px 300px 0 300px;
     display: flex;
     flex-direction: column;
     overflow: auto;
+
+    h2 {
+        color: $grey;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 72px;    
+    }
+    p {
+        color: $grey; 
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 /* Our Numbers */
@@ -118,8 +114,8 @@ body {
 }
 
 .ournumbers-title {
-    color: #f1f1f1;
-    font-weight: 400;
+    color: $offWhite;
+    
     font-size: 20px;
     line-height: 32px;
 
@@ -128,7 +124,7 @@ body {
 
 .ournumbers-subtitle {
     color: #fff;
-    font-weight: 400;
+    
     font-size: 48px;
     line-height: 72px;
     // margin: 12px 279px 82px 279px;
@@ -145,7 +141,7 @@ body {
 
 .ournumbers-number {
     color: #4FE9A4;
-    font-weight: 400;
+    
     font-size: 96px;
     line-height: 56px;
 
@@ -153,8 +149,8 @@ body {
 }
 
 .ournumbers-number-title {
-    color: #f1f1f1;
-    font-weight: 400;
+    color: $offWhite;
+    
     font-size: 24px;
     line-height: 36px;
 }
@@ -162,14 +158,12 @@ body {
 /* Leaders for Our Team */
 
 .leader-name {
-    font-weight: 400;
     font-size: 28px;
     line-height: 48px;
 }
 
 .leader-role {
-    color: #777;
-    font-weight: 400;
+    color: $grey;
     font-size: 20px;
     line-height: 32px;
 }
@@ -182,51 +176,39 @@ body {
 .ourvalues-wrapper {
     padding-top: 111px;
     padding-bottom: 131px;
-
     margin-left: 300px;
-}
 
-
-.ourvalues-title {
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.ourvalues-subtitle {
-    color: #fff;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-}
-
-.ourvalues-description {
-    color: #f1f1f1;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
-
-    margin-right: 99px;
-    margin-bottom: 72px;
+    .ourvalues-title {
+        color: #fff;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .ourvalues-subtitle {
+        color: #fff;
+        font-size: 48px;
+        line-height: 72px;
+    }
+    .ourvalues-description {
+        color: $offWhite;
+        font-size: 20px;
+        line-height: 32px;
+        margin-right: 99px;
+        margin-bottom: 72px;
+    }
 }
 
 .ourvalues-value-wrapper {
     margin-right: 99px;
-}
-
-.ourvalues-value {
-    color: #fff;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 48px;
-}
-
-.ourvalues-value-description {
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+    h2 {
+        color: #fff;
+        font-size: 28px;
+        line-height: 48px;
+    }
+    p {
+        color: $offWhite;
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 /* Subscription */
@@ -235,50 +217,50 @@ body {
     border-radius: 12px;
     margin-bottom: 84px;
     padding-bottom: 74px;
+
+    .subscription-title {
+        color: #fff;
+        font-size: 48px;
+        line-height: 72px;
+    
+        padding-top: 72px;
+        margin-bottom: 50px;
+        // margin-left: 242px;
+        // margin-right: 242px;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    form {
+        .subscription-email { 
+            color:  black;
+            padding-left: 32px;  
+            font-size: 20px;
+            line-height: 32px;
+            width: 370px;
+            height: 56px;
+            border-radius: 240px;
+        }
+        
+        ::-webkit-input-placeholder {
+            color: black;
+        }
+        
+        .subscription-button {
+            color: $navyBlue;
+            background-color: #65E4A3;
+            border: 2px solid #65E4A3;
+            width: 210px;
+            height: 60px;
+            border-radius: 56px;
+        
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 28px;
+        }
+    }
 }
 
-.subscription-title {
-    color: #fff;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 72px;
-
-    padding-top: 72px;
-    margin-bottom: 50px;
-    // margin-left: 242px;
-    // margin-right: 242px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-.subscription-email { 
-    color:  black;
-    padding-left: 32px;  
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-
-    width: 370px;
-    height: 56px;
-    border-radius: 240px;
-}
-
-::-webkit-input-placeholder {
-    color: black;
-}
-
-.subscription-button {
-    color: $navyBlue;
-    background-color: #65E4A3;
-    border: 2px solid #65E4A3;
-    width: 210px;
-    height: 60px;
-    border-radius: 56px;
-
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 28px;
-}
 
 /* Footer */
 .footer-logo {
@@ -288,36 +270,34 @@ body {
 }
 
 .footer-text {
-    color: #777;
+    color: $grey;
     font-size: 16px;
-    font-weight: 400;
+    
     line-height: 28px;
     margin-bottom: 64px;
 
     width: 300px;
 }
 
-.footer-title {
-    color: black;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 32px;
-}
-
-.footer-link {
-    text-decoration: none;
-}
-
-.footer-link-text {
-    color: #777;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+.footercol {
+    .h1 {
+        color: black;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 32px;
+    }
+    a {
+        text-decoration: none;
+        h2 {
+            color: $grey;
+            
+            font-size: 20px;
+            line-height: 32px;
+        }
+    }
 }
 
 .careers-hiring {
-    font-family: 'Open Sans';
-
     color: $navyBlue;
     background-color: #65E4A3;
     width: 72px;
@@ -365,4 +345,3 @@ body {
 .font-manrope {
     font-family: 'Manrope', sans-serif;
 }
-
